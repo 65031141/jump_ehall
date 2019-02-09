@@ -1,3 +1,3 @@
 FROM nginx:latest
-COPY html /user/share/nginx/html
+ADD html /user/share/nginx/
 RUN chmod -R 755 /usr/share/nginx/html
